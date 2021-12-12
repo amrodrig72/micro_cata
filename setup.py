@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type='ext/markdown',
     packages=setuptools.find_packages(),
-    install_requires=["numpy","pandas", "bokeh>=1.4.0", "warnings", "bebi103", "math", "scipy", "numba", "tqdm", "iqplot", "colorcet"],
+    install_requires=["numpy","pandas", "warnings", "bebi103", "math", "scipy", "numba", "tqdm", "iqplot", "colorcet", "bokeh>=1.4.0"],
     classifiers=(
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
