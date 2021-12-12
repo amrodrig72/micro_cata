@@ -7,7 +7,7 @@ setuptools.setup(
     name='micro_cata',
     version='0.0.1',
     author='Andres Rodriguez and Adiel Perez',
-    author_email='amrodrig@caltech.edu and afperez@caltech.edu',
+    author_email='amrodrig@caltech.edu',
     description='Package that will help us analyze microtuble catastrophe data.',
     long_description=long_description,
     long_description_content_type='ext/markdown',
