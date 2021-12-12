@@ -9,8 +9,8 @@ setuptools.setup(
     author='Andres Rodriguez and Adiel Perez',
     author_email='amrodrig@caltech.edu',
     description='Package that will help us analyze microtuble catastrophe data.',
-    long_description=long_description,
-    long_description_content_type='markdown',
+   # long_description=long_description,
+   # long_description_content_type='markdown',
     packages=setuptools.find_packages(),
     install_requires=["numpy","pandas","bokeh>=1.4.0"],
     classifiers=(
