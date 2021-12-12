@@ -1,5 +1,11 @@
-#Expected file : '../data/gardner_mt_catastrophe_only_tubulin.csv' 
+#Expected file : '../data/gardner_mt_catastrophe_only_tubulin.csv' or 'C:data/gardner_mt_catastrophe_only_tubulin.csv'
 def compare_model(file):
+    """
+    This function will allow you to assess the gamma distribution and two-step model based on the 12uM tubulin data. 
+    Expected file: '../data/gardner_mt_catastrophe_only_tubulin.csv' or 'C:data/gardner_mt_catastrophe_only_tubulin.csv'
+    For ease of us set up folders so that the data folder containing the folder containing the notebook are on the same  
+    level.   
+    """
     #Import packages
     import pandas as pd; import numpy as np; import bebi103
 

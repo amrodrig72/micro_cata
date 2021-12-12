@@ -1,5 +1,12 @@
-#Expected file: '../data/gardner_time_to_catastrophe_dic_tidy.csv'
-def ecdf_tubulin (file):   
+#Expected file: '../data/gardner_time_to_catastrophe_dic_tidy.csv' or 'C:data/gardner_time_to_catastrophe_dic_tidy.csv'
+def ecdf_tubulin (file):  
+    """
+    This function will allow you to create an ECDF plot with confidence intervals for labeled and unlabeled tubulin data
+    Expected file: '../data/gardner_time_to_catastrophe_dic_tidy.csv' or 'C:data/gardner_time_to_catastrophe_dic_tidy.csv'
+    For ease of us set up folders so that the data folder containing the folder containing the notebook are on the same  
+    level.        
+
+    """
     #Import packages
     import pandas as pd; import numpy as np; 
 

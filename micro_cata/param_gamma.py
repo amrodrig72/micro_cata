@@ -1,5 +1,13 @@
-#Expected file: '../data/gardner_mt_catastrophe_only_tubulin.csv'
+#Expected file: '../data/gardner_mt_catastrophe_only_tubulin.csv' or 'C:data/gardner_mt_catastrophe_only_tubulin.csv'
 def param_gamma (file):
+    """
+    This function will allow you to plot parameter estimates for the differnt tubulin concentration data. 
+    Expected file: '../data/gardner_mt_catastrophe_only_tubulin.csv' or 'C:data/gardner_mt_catastrophe_only_tubulin.csv'
+    For ease of us set up folders so that the data folder containing the folder containing the notebook are on the same  
+    level.   
+    Note: Concentration 0 is Concentration 7uM, Concentration 1 is Concentration 9uM, Concentration 2 is Concentration 10uM,
+    Concentration 3 is Concentration 12uM, and Concentration 4 is Concentration 14uM
+    """
     #Import packages
     import pandas as pd; import numpy as np; import bebi103
 
