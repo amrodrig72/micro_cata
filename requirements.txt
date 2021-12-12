@@ -1,11 +1,8 @@
 numpy
 pandas
 bokeh>=1.4.0
-warnings
 bebi103
-math
-scipy
-scipy.stats
+scipy>=1.7.1
 numba
 tqdm
 iqplot
