@@ -1,0 +1,13 @@
+numpy
+pandas
+bokeh>=1.4.0
+warnings
+bebi103
+math
+scipy
+scipy.stats
+numba
+tqdm
+iqplot
+colorcet
+holoviews
