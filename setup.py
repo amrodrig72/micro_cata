@@ -10,7 +10,7 @@ setuptools.setup(
     author_email='amrodrig@caltech.edu',
     description='Package that will help us analyze microtuble catastrophe data.',
     long_description=README.md,
-    long_description_content_type='ext/markdown',
+    long_description_content_type='markdown',
     packages=setuptools.find_packages(),
     install_requires=["numpy","pandas","bokeh>=1.4.0"],
     classifiers=(
